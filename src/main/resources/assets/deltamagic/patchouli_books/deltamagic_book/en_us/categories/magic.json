@@ -1,0 +1,6 @@
+{
+  "name": "魔法",
+  "description": "法术附魔与 TP 机制：十个法术、施法操作与获取方式。",
+  "icon": "deltamagic:snowflake_ring",
+  "sortnum": 1
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "deltamagic:item/snowflake_ring"
+  }
+}

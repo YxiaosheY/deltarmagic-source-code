@@ -1,0 +1,6 @@
+{
+  "name": "物品",
+  "description": "指环、TP 补给、牢房钥匙、Jevil 战利品与音乐唱片的获取和用途。",
+  "icon": "deltamagic:thorn_ring",
+  "sortnum": 3
+}

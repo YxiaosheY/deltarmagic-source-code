@@ -1,0 +1,57 @@
+{
+  "display": {
+    "icon": { "item": "deltamagic:adv_icon_heart" },
+    "title": { "translate": "advancements.deltamagic.root.title" },
+    "description": { "translate": "advancements.deltamagic.root.description" },
+    "frame": "task",
+    "background": "deltamagic:textures/gui/bg_snowfall_0.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "mod_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "tag": "deltamagic:any_mod_item" } ] }
+    },
+    "book_snow_burial": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:snow_burial" } ] } ] }
+    },
+    "book_toothbrush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:toothbrush" } ] } ] }
+    },
+    "book_rough_smash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:rough_smash" } ] } ] }
+    },
+    "book_crimson_smash": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:crimson_smash" } ] } ] }
+    },
+    "book_ice_shock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:ice_shock" } ] } ] }
+    },
+    "book_heal_prayer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:heal_prayer" } ] } ] }
+    },
+    "book_sleep_spray": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [ { "items": [ "minecraft:enchanted_book" ], "stored_enchantments": [ { "enchantment": "deltamagic:sleep_spray" } ] } ] }
+    }
+  },
+  "requirements": [
+    [
+      "mod_item",
+      "book_snow_burial",
+      "book_toothbrush",
+      "book_rough_smash",
+      "book_crimson_smash",
+      "book_ice_shock",
+      "book_heal_prayer",
+      "book_sleep_spray"
+    ]
+  ]
+}

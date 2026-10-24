@@ -1,0 +1,25 @@
+{
+  "parent": "deltamagic:root",
+  "display": {
+    "icon": { "item": "deltamagic:adv_icon_ice_snowflake" },
+    "title": { "translate": "advancements.deltamagic.cool_warlock.title" },
+    "description": { "translate": "advancements.deltamagic.cool_warlock.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 2.0, "y": -1.0
+  },
+  "criteria": {
+    "ice_shock_on_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "deltamagic:snowflake_ring", "deltamagic:thorn_ring" ],
+            "enchantments": [ { "enchantment": "deltamagic:ice_shock" } ]
+          }
+        ]
+      }
+    }
+  }
+}

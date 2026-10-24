@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "deltamagic:key_shard_a" },
+    { "item": "deltamagic:key_shard_b" },
+    { "item": "deltamagic:key_shard_c" }
+  ],
+  "result": {
+    "item": "deltamagic:prison_key",
+    "count": 1
+  }
+}

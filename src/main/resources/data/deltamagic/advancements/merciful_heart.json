@@ -1,0 +1,29 @@
+{
+  "parent": "deltamagic:root",
+  "display": {
+    "icon": { "item": "deltamagic:adv_icon_bt_spare" },
+    "title": { "translate": "advancements.deltamagic.merciful_heart.title" },
+    "description": { "translate": "advancements.deltamagic.merciful_heart.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 4.0, "y": 1.0
+  },
+  "criteria": {
+    "heal_prayer_on_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet", "minecraft:chainmail_helmet", "minecraft:golden_helmet",
+              "minecraft:iron_helmet", "minecraft:diamond_helmet", "minecraft:netherite_helmet",
+              "minecraft:turtle_helmet"
+            ],
+            "enchantments": [ { "enchantment": "deltamagic:heal_prayer" } ]
+          }
+        ]
+      }
+    }
+  }
+}

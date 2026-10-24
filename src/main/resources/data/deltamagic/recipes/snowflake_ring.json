@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": {"item": "minecraft:snowball"},
+    "I": {"item": "minecraft:ice"}
+  },
+  "result": {
+    "item": "deltamagic:snowflake_ring",
+    "count": 1
+  }
+}

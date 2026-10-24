@@ -1,0 +1,18 @@
+{
+  "parent": "deltamagic:root",
+  "display": {
+    "icon": { "item": "deltamagic:adv_icon_noelleb_hurt" },
+    "title": { "translate": "advancements.deltamagic.just_joking.title" },
+    "description": { "translate": "advancements.deltamagic.just_joking.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 8.0, "y": -1.0
+  },
+  "criteria": {
+    "ground_off_snow_burial": {
+      "trigger": "deltamagic:grindstone_disenchant",
+      "conditions": { "enchantment": "deltamagic:snow_burial" }
+    }
+  }
+}

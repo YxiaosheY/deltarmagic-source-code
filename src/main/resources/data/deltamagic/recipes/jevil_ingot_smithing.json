@@ -1,0 +1,6 @@
+{
+  "type": "deltamagic:jevil_ingot_smithing",
+  "template": { "item": "minecraft:netherite_upgrade_smithing_template" },
+  "base": { "tag": "minecraft:axes" },
+  "addition": { "item": "deltamagic:jevil_ingot" }
+}

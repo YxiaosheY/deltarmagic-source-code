@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "deltamagic_crimson_smash_book",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{id:\"deltamagic:rough_smash\",lvl:1s}]}"
+    },
+    { "item": "minecraft:diamond" },
+    { "item": "minecraft:echo_shard" },
+    { "item": "minecraft:redstone" }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": "{StoredEnchantments:[{id:\"deltamagic:crimson_smash\",lvl:1s}]}"
+  }
+}

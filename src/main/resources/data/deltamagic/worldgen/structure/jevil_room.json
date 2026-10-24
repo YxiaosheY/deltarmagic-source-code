@@ -1,0 +1,14 @@
+{
+  "type": "deltamagic:jevil_room",
+  "biomes": [
+    "minecraft:snowy_plains",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:ice_spikes",
+    "minecraft:grove",
+    "minecraft:jagged_peaks",
+    "minecraft:frozen_peaks"
+  ],
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

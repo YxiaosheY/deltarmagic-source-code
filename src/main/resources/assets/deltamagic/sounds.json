@@ -1,0 +1,78 @@
+{
+  "ominous": {
+    "sounds": ["deltamagic:snd_ominous"]
+  },
+  "ominous_cancel": {
+    "sounds": ["deltamagic:snd_ominous_cancel"]
+  },
+  "snowgrave_4": {
+    "sounds": ["deltamagic:snowgrave-4"]
+  },
+  "rudebuster_hit": {
+    "sounds": ["deltamagic:snd_rudebuster_hit"]
+  },
+  "rudebuster_swing": {
+    "sounds": ["deltamagic:snd_rudebuster_swing"]
+  },
+  "graze": {
+    "sounds": ["deltamagic:snd_graze"]
+  },
+  "select": {
+    "sounds": ["deltamagic:snd_select"]
+  },
+  "icespell": {
+    "sounds": ["deltamagic:snd_icespell"]
+  },
+  "tensionhorn": {
+    "sounds": ["deltamagic:snd_tensionhorn"]
+  },
+  "power": {
+    "sounds": ["deltamagic:snd_power_1"]
+  },
+  "spell_pacify": {
+    "sounds": ["deltamagic:snd_spell_pacify"]
+  },
+  "ohhhhohohoho": {
+    "record": true,
+    "category": "record",
+    "sounds": ["deltamagic:ohhhhohohoho"]
+  },
+  "lost_girl": {
+    "record": true,
+    "category": "record",
+    "sounds": ["deltamagic:lost_girl"]
+  },
+  "joker_ha0": {
+    "sounds": ["deltamagic:snd_joker_ha0"]
+  },
+  "joker_ha1": {
+    "sounds": ["deltamagic:snd_joker_ha1"]
+  },
+  "joker_anything": {
+    "sounds": ["deltamagic:snd_joker_anything"]
+  },
+  "joker_oh": {
+    "sounds": ["deltamagic:snd_joker_oh"]
+  },
+  "joker_chaos": {
+    "sounds": ["deltamagic:snd_joker_chaos"]
+  },
+  "joker_byebye": {
+    "sounds": ["deltamagic:snd_joker_byebye"]
+  },
+  "joker_neochaos": {
+    "sounds": ["deltamagic:snd_joker_neochaos"]
+  },
+  "joker_laugh1": {
+    "sounds": ["deltamagic:snd_joker_laugh1"]
+  },
+  "joker_metamorphosis": {
+    "sounds": ["deltamagic:snd_joker_metamorphosis"]
+  },
+  "joker_music": {
+    "category": "record",
+    "sounds": [
+      { "name": "deltamagic:joker", "stream": true }
+    ]
+  }
+}

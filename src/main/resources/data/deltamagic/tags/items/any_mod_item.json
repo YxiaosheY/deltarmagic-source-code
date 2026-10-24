@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "deltamagic:thorn_ring",
+    "deltamagic:snowflake_ring",
+    "deltamagic:snow_burial_book",
+    "deltamagic:tension_bit",
+    "deltamagic:tension_gem",
+    "deltamagic:tension_full"
+  ]
+}

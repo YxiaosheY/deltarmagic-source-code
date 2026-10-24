@@ -1,0 +1,25 @@
+{
+  "parent": "deltamagic:root",
+  "display": {
+    "icon": { "item": "deltamagic:adv_icon_noelleb_spell" },
+    "title": { "translate": "advancements.deltamagic.proceed.title" },
+    "description": { "translate": "advancements.deltamagic.proceed.description" },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 4.0, "y": -1.0
+  },
+  "criteria": {
+    "snow_burial_on_thorn_ring": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [ "deltamagic:thorn_ring" ],
+            "enchantments": [ { "enchantment": "deltamagic:snow_burial" } ]
+          }
+        ]
+      }
+    }
+  }
+}

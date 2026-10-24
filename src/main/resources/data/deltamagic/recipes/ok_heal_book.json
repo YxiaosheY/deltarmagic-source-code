@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "group": "deltamagic_ok_heal_book",
+  "ingredients": [
+    {
+      "type": "forge:partial_nbt",
+      "item": "minecraft:enchanted_book",
+      "nbt": "{StoredEnchantments:[{id:\"deltamagic:heal_prayer\",lvl:1s}]}"
+    },
+    { "item": "minecraft:purple_dye" },
+    { "item": "minecraft:bone_meal" },
+    { "item": "minecraft:writable_book" }
+  ],
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "count": 1,
+    "nbt": "{StoredEnchantments:[{id:\"deltamagic:ok_heal\",lvl:1s}]}"
+  }
+}

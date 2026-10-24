@@ -1,0 +1,11 @@
+{
+  "name": "音乐唱片",
+  "icon": "deltamagic:music_disc_ohhhhohohoho",
+  "category": "deltamagic:items",
+  "sortnum": 5,
+  "pages": [
+    "§l唱片 4 · Ohhhhohohoho§r$(br)物品 ID：deltamagic:music_disc_ohhhhohohoho$(br)把它放进原版唱片机即可播放 Ohhhhohohoho，时长约 9.14 秒。它属于原版音乐唱片标签，可以被唱片机正常识别；比较器也会按唱片规则输出信号。$(br2)§l获取方式§r$(br)玩家每次死亡时，这张唱片有 §n5%§r 的概率直接掉在死亡位置附近。它是「死亡的奖励」而不是背包物品的归还：即使开了 keepInventory（保留物品栏）规则也照样掉。没掉的话，再死一次重新抽奖。",
+    "§l唱片 30 · Lost Girl§r$(br)物品 ID：deltamagic:music_disc_lost_girl$(br)放入唱片机后播放 Lost Girl，时长约 76.9 秒。同样属于原版音乐唱片，拿在手中不能直接播放，必须对唱片机使用。$(br2)§l获取方式§r$(br)当前版本§n暂无生存获取途径§r，只能从创造物品栏取得。",
+    "§l使用提示§r$(br)两张唱片都是不可堆叠的唱片物品。唱片机开始播放后，取出唱片或让唱片机按原版规则停止即可结束；它们与 Jevil 战斗音乐分开，唱片播放不会改变 Boss 的战斗循环。唱片 4 靠死亡 5% 掉落获取时，掉落在你的死亡位置：如果死在岩浆、虚空等会销毁掉落物的地方，这次掉出的唱片也会一起消失，选赴死地点请慎重。"
+  ]
+}

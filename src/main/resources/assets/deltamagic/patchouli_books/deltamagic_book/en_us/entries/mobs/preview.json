@@ -1,0 +1,10 @@
+{
+  "name": "生物 · Jevil 与牢房",
+  "icon": "deltamagic:jevil",
+  "category": "deltamagic:mobs",
+  "sortnum": 0,
+  "pages": [
+    "生物板块目前收录 Jevil Boss 与 jevil_room 牢房结构。先阅读「Jevil · 小丑牢房 Boss」，可查看生命值、限伤、四种常规技能、低血量狂暴、召唤流程、战利品与战斗建议。",
+    "牢房钥匙由三种钥匙碎片合成；打开牢房栏并进入结构内部后，才会触发一次性召唤。后续会继续补充牢房与其他生物的独立条目。"
+  ]
+}

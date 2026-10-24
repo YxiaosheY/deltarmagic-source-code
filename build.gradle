@@ -1,0 +1,34 @@
+plugins { id 'java'; id 'net.minecraftforge.gradle' version '[6.0,6.2)' }
+version = '1.0.0-r93'
+group = 'cn.blockforge.generated.deltamagic'
+base { archivesName = 'deltamagic' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+repositories {
+    maven { url = 'https://maven.theillusivec4.top/' }
+    mavenCentral()
+}
+minecraft { mappings channel: 'official', version: '1.20.1' }
+// Jade 兼容层单独放 src/compat/java：Gradle 把它并入主源码集一起编译打包，
+// 语义上等同于"可选插件"——没装 Jade 时这些类不会被任何路径触发加载。
+sourceSets.main.java.srcDir 'src/compat/java'
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.0'
+    implementation fg.deobf('top.theillusivec4.curios:curios-forge:5.14.1+1.20.1')
+    // 玉 (Jade)：只在编译期用来对接它的插件接口，不打进产物、也不是运行必需——
+    // 装了 Jade 才会自动显示疲劳值，没装 Jade 这个兼容类永远不会被加载。
+    // 用用户提供的 jar（1.20.1 Forge 官方映射版），类名与本模块一致。
+    compileOnly files('libs/jade-1.20.1-Forge-11.13.1.jar')
+    // 帕秋莉手册 (Patchouli)：同样只是编译期可选依赖，不打进产物。
+    // 装了它 → 自动读取 data/deltamagic/patchouli_books/ 下的教程书并出现在模组创造页；
+    // 没装它 → 书籍 JSON 只是普通的闲置数据文件，兼容类也永远不会被类加载器触碰。
+    compileOnly files('libs/patchouli-1.20.1-85.jar')
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+processResources {
+    def props = [mod_id: 'deltamagic', mod_name: 'deltamagic', mod_version: project.version,
+                 minecraft_version: '1.20.1', forge_version: '47.4.0']
+    inputs.properties props
+    filteringCharset = 'UTF-8'
+    filesMatching('META-INF/mods.toml') { expand props }
+}
+jar.finalizedBy('reobfJar')

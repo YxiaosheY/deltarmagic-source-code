@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CIC",
+    "CCC"
+  ],
+  "key": {
+    "C": {"item": "minecraft:cactus"},
+    "I": {"item": "minecraft:ice"}
+  },
+  "result": {
+    "item": "deltamagic:thorn_ring",
+    "count": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "deltamagic:jevil_room",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 40,
+    "separation": 16,
+    "salt": 951327
+  }
+}

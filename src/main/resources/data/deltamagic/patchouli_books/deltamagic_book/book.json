@@ -1,0 +1,13 @@
+{
+  "name": "deltamagic 教程",
+  "subtitle": "Undertale 风格魔法指南",
+  "version": "1",
+  "author": "deltamagic",
+  "landing_text": "欢迎来到 deltamagic 教程书！这里用三大板块讲解模组内容：§n§1魔法§r —— 各种法术附魔与 TP 机制；§n§1生物§r —— 敌人、Boss 与牢房；§n§1物品§r —— 戒指、宝石与钥匙。先从总目录开始，看看整本书的结构吧！",
+  "use_resource_pack": true,
+  "model": "patchouli:book_purple",
+  "creative_tab": "deltamagic:mod_items",
+  "show_progress": false,
+  "i18n": false,
+  "dont_generate_book": false
+}

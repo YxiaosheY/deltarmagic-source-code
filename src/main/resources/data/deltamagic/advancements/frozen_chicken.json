@@ -1,0 +1,20 @@
+{
+  "parent": "deltamagic:root",
+  "display": {
+    "icon": { "item": "deltamagic:adv_icon_berdly_ice" },
+    "title": { "translate": "advancements.deltamagic.frozen_chicken.title" },
+    "description": { "translate": "advancements.deltamagic.frozen_chicken.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 6.0, "y": -1.0
+  },
+  "criteria": {
+    "snow_grave_killed_chicken": {
+      "trigger": "deltamagic:snow_grave_kill",
+      "conditions": {
+        "victim": { "type": "minecraft:chicken" }
+      }
+    }
+  }
+}
